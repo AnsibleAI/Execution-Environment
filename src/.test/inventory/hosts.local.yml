@@ -1,0 +1,7 @@
+all:
+  hosts:
+    localhost:
+      ansible_password: u
+      ansible_become_password: u
+      ansible_user: me
+      ansible_connection: local
